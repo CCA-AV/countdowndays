@@ -173,6 +173,8 @@ function script_update(settings)
 	source_name = obs.obs_data_get_string(settings, "source")
 	stop_text = obs.obs_data_get_string(settings, "stop_text")
 	next_scene = obs.obs_data_get_string(settings, "next_scene")
+	stop_streaming = obs.obs_data_get_string(settings, "stop_streaming")
+	stop_recording = obs.obs_data_get_string(settings, "stop_recording")
 
 	reset(true)
 end
