@@ -57,6 +57,7 @@ function timer_callback()
 	if cur_seconds < 0 then
 		obs.remove_current_callback()
 		cur_seconds = 0
+		return
 	end
 
 	set_time_text()
